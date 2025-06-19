@@ -57,12 +57,13 @@ main, footer{
     padding: 0 12rem;
 }
 
-button{
+a.btn{
     background-color: #1B4353;
     color: #fff;
     padding: 13px 28px;
     border:none;
     outline:none;
+    text-decoration: none;
 }
 
 footer{
