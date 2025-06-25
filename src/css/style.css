@@ -1,72 +1,371 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #F6EFFF;
-    font-family: "Manrope", sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f6efff;
+  font-family: "Poppins", sans-serif;
 }
 
-header{
-    background-color: #fff;
-    padding: 20px 12rem;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    
+header {
+  background-color: #fff;
+  padding: 20px 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    
-    img{
-        width: 180px;
+  img {
+    width: 180px;
+  }
+
+  nav {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+
+      li:not(:last-child) {
+        margin-right: 1rem;
+      }
+
+      li {
+        font-weight: 400;
+        font-size: 1.05rem;
+      }
     }
-
-
-    nav{
-        ul{
-            list-style:none;
-            margin:0;
-            padding: 0;
-            display: flex;
-
-            li:not(:last-child){
-                margin-right: 1rem;
-            }
-
-            li{
-                font-weight: 600;
-                font-size: 1.05rem;
-            }
-
-        }
-    }
+  }
 }
 
-main{
-    p {
-        color: #1B4353;
-    }
+main {
+  p {
+    color: #1b4353;
+  }
 }
 
-p{
-    font-size: 18px;
-    color:white;
-    margin: 0;
+p {
+  font-size: 15px;
+  color: black;
+  margin: 0;
 }
 
-main, footer{
-    padding: 0 12rem;
+main,
+footer {
+  padding: 0 12rem;
 }
 
-a.btn{
-    background-color: #1B4353;
-    color: #fff;
-    padding: 13px 28px;
-    border:none;
-    outline:none;
-    text-decoration: none;
+a.btn {
+  background-color: #3b2772;
+  color: #fff;
+  padding: 13px 28px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  font-size: 13px;
+  display: inline-block;
 }
 
-footer{
-    background-color: #1B4353;
+li a {
+  color: black;
+  text-decoration: none;
 }
 
+li {
+  font-size: 13px !important;
+}
+
+h1 {
+  margin: 0;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.hero-section {
+  padding: 3rem 12rem;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  padding-left: 40px;
+}
+
+.hero-detail {
+  margin-bottom: 0.8rem;
+}
+
+.counter-section {
+  padding: 3rem 12rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.counter-section h3 {
+  margin: 0;
+  font-size: 34px;
+}
+
+.about-section {
+  padding: 3rem 12rem;
+  display: flex;
+  align-items: center;
+}
+
+.about-section img {
+  width: 35rem;
+  height: 25rem;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 35px;
+  font-weight: 400;
+}
+.about-contant {
+  padding-right: 1.5rem;
+  font-style: ;
+}
+
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+.about-contant ul {
+  margin: 0;
+  list-style-type: disc;
+}
+
+.about-contant a {
+  margin-top: 10px;
+}
+
+.about-contant p.about-data,
+.about-contant .about-list {
+  font-size: 13px;
+  color: blue;
+}
+.about-contant .about-list div {
+  display: flex;
+}
+
+.service-section {
+  padding: 3rem 12rem;
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.service-contant {
+  width: 17rem;
+  background-color: white;
+  border-color: white;
+  border-style: solid;
+  border-width: 0.7px;
+  padding: 10px;
+  margin: 7px;
+}
+
+.service-contant p {
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+.service-contant .btn {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.service-box {
+  width: 17rem;
+  background-color: lightgray;
+  border-color: blue;
+  border-style: solid;
+  border-width: 0.7px;
+  padding: 10px;
+  margin: 7px;
+}
+
+.service-box img,
+p,
+.more-btn {
+  padding-left: 10px;
+}
+.service-box h3 {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.service-box p {
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+.service-box .more-btn {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.why-choose-section {
+  padding: 3rem 12rem;
+  display: flex;
+  background-color: #f6efff;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.why-box1 {
+  border-width: 1px;
+  width: 28rem;
+  padding: 0;
+  margin: 0;
+}
+
+.why-box1 .para1 {
+  padding: 0;
+  padding-bottom: 2px;
+}
+
+.why-box1 .para2 {
+  padding: 0;
+  padding-bottom: 7px;
+  color: cornflowerblue;
+  font-size: 13px;
+}
+
+.why-box1 h2 {
+  font-weight: 600;
+}
+.why-box1 img {
+  width: 28rem;
+}
+
+.why-box2 {
+  border-width: 1px;
+  width: 28rem;
+  height: 28rem;
+}
+
+.box1 {
+  border-color: #d2c8db;
+  border-style: solid;
+  border-width: 1px;
+  width: 13.5rem;
+  height: 13.5rem;
+  display: inline-block;
+  margin: 1px;
+  margin-top: 10px;
+}
+
+.box1 img {
+  width: 4rem;
+  height: 4rem;
+  padding-left: 10px;
+  padding-top: 8px;
+}
+.box1 h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.box1 p {
+  font-size: 0.6rem;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.coment-section {
+  padding: 3rem 12rem;
+  background-color: #1b4353;
+
+  text-align: center;
+}
+
+.comant-box {
+  width: 600px;
+  height: 200px;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  background-color: white;
+  margin-top: 0.7rem;
+  margin-left: 12rem;
+}
+
+.coment-section .par2 {
+  color: lightpink;
+}
+
+.coment-section .par1,
+.par1-h {
+  color: white;
+}
+
+.how-to-get-section {
+  padding: 3rem 12rem;
+  background-color: white;
+}
+
+.h-box-1 {
+  display: flex;
+}
+
+.how-to-get-section p {
+  font-weight: 500;
+  padding: 0;
+}
+
+.h-box-1 p {
+  font-size: 13px;
+  margin-top: 30px;
+  color: #3b2772;
+}
+
+.how-to-get-section h2 {
+  padding-right: 100px;
+  font-weight: 600;
+}
+
+.how-box1 {
+  border-color: #d2c8db;
+  border-style: solid;
+  border-width: 1px;
+  width: 18rem;
+  height: 12rem;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+.how-box1 img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.how-box1 h4 {
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.how-box1 p {
+  font-size: 12px;
+  color: #3b2772;
+}
+
+.how-to-contant {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us-section {
+  padding: 3rem 12rem;
+  background-color: #1b4353;
+}
+
+footer {
+  background-color: #1b4353;
+}
