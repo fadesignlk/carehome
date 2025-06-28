@@ -37,8 +37,6 @@ header {
   }
 }
 
-
-
 p {
   font-size: 15px;
   color: black;
@@ -70,19 +68,16 @@ li {
   font-size: 13px !important;
 }
 
-h1{
+h1 {
   font-size: 40px;
   font-weight: 700;
   line-height: 1.2;
-
 }
 
-h2{
+h2 {
   font-size: 35px;
   font-weight: 700;
   line-height: 1.2;
-
-
 }
 
 h1 {
@@ -372,8 +367,65 @@ h4 {
 .contact-us-section {
   padding: 3rem 12rem;
   background-color: #1b4353;
+  display: flex;
 }
 
-footer {
+.msg-box {
+  background-color: white;
+  padding: 20px;
+  width: 45rem;
+}
+
+.msg-box table .Last,
+.last-data {
+  border-collapse: collapse;
+}
+
+.msg-box-box2 {
+  padding-top: 50px;
+  padding-left: 18px;
+}
+
+.msg-box-box2 p {
+  color: lightblue;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.first-h4- {
+  color: white !important;
+}
+.msg-box-box2 h4 {
+  color: white;
+  padding: 0;
+  padding-top: 1px;
+  padding-bottom: 6px;
+}
+
+.msg-box-box2 h2 {
+  padding-top: 15px;
+  color: white;
+}
+
+.msg-box {
+  font-size: 12px;
+}
+
+.msg-box table tr td input {
+  height: 1.6rem;
+}
+
+.faq-section {
+  padding: 3rem 12rem;
+  background-color: white;
+}
+.footer-section {
   background-color: #1b4353;
+  padding: 3rem 12rem;
+}
+.footer-table td {
+  border: 1px;
+  border-color: black;
+  border-style: solid;
 }
