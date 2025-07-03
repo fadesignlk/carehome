@@ -479,3 +479,66 @@ input[type="email"] {
     color: white;
   }
 }
+
+
+/* Mobile Responsiveness / Media Queries */
+
+@media (max-width: 800px) {
+
+  header {
+    padding: 20px 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: 120px;
+    }
+    
+
+    nav, .btn {
+      display: none;
+    }
+  }
+
+  .hero-section {
+    padding: 3rem;
+    display: block;
+  }
+
+  .counter-section {
+  padding: 3rem;
+  display: block;
+}
+}
+
+@media (max-width: 500px) {
+
+  header {
+    padding: 20px 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: 120px;
+    }
+    
+
+    nav, .btn {
+      display: none;
+    }
+  }
+
+  .hero-section {
+    padding: 3rem;
+    display: block;
+  }
+
+  .counter-section {
+  padding: 3rem;
+  display: block;
+}
+
+
+}
